@@ -1,0 +1,1121 @@
+
+::-webkit-scrollbar {
+  width:15px;
+}
+::-webkit-scrollbar-track {
+  background: linear-gradient(45deg, #257a4fd4, #5f3889b3, #6c236cbf); 
+}
+::-webkit-scrollbar-track:hover {
+  background: linear-gradient(45deg, #321ddb8c, #3414b394);
+     
+}
+::-webkit-scrollbar-thumb {
+    width: 5px;
+    height: 80px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #1da8db59,#4444c37a , #2ed578a1);
+    border-radius: 38px;
+  }
+::-webkit-scrollbar-thumb:hover {
+ background: linear-gradient(45deg, #257a4fd4, #5f3889b3, #6c236cbf); 
+}
+
+
+
+/* this the whole web*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+        font-family: sans-serif;
+     background: linear-gradient(140deg, #452fbbbf, #421313b0, #743999d1, #40915ce3, #575a29d9);
+}
+.main1{
+   width: auto;
+    height: 400px;
+   background: linear-gradient(45deg, #482852e3, #3d1b42bf, #44215ecf, #7c2dad54);
+}
+.header{
+    
+    
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+        color: #16b3967a;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+}
+.list{
+
+}
+.list ul{
+    display: flex;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.list a{
+    text-decoration: none;
+}
+
+.list li{
+    z-index: 1;
+    color: #8992f9;
+    list-style: none;
+   margin: 0px 0px 0px 16px;
+    padding: 0px 5px 0px 0px;
+}
+.absul{
+    position: absolute;
+    z-index: 9;
+}
+
+.toggle{
+    font-size: 16px;
+    border-radius: 3px;
+    padding: 1px 2px 2px 3px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background: linear-gradient(45deg, #800ba7c2, #8417c9b0);
+    display: none;
+    z-index: 1;
+   }
+
+.toggle:hover .list li{
+    
+        display: block;
+    
+}
+
+
+
+.beauty{
+    position: relative;
+    top: 70px;
+    left: 223px;
+    width: 400px;
+}
+.this{
+    font-size: 30px;
+    font-weight: bold;
+    color: #00ffff85;
+    font-family: cursive;
+}
+.start{
+    width: 125px;
+    font-size: 17px;
+    color: #a1a09c;
+    background: linear-gradient(45deg, #488732eb, #2e164aa3, #244345, #353535);
+    border-radius: 50px;
+    margin-top: 10px;
+        box-shadow: 0px 1px 1px 1px #445c3980;
+    padding: 7px 5px 8px 11px;
+    
+}
+.image{
+    position: relative; top: -100px;left: 890px;
+    width: 300px;
+    height: 350px;
+}
+.image img{
+    width: 300px;
+    height: 350px;
+}
+
+
+
+
+
+/* this the bootstrep carazol*/
+.new{
+    color: #9c75e7e0;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    font-family: math;
+    text-shadow: 0px 3px 2px #79a06d, -1px 3px 3px #82ad75, -2px 5px 1px #8ebf80;
+}
+
+#cerizol{
+    
+    
+}
+#cer button{
+    width: 7px;
+    height: 7px;
+    
+}
+#cerimag{
+    height: 350px;
+    box-shadow: rgb(0 0 0 / 30%) 0px 54px 55px, rgb(227 104 104 / 35%) 0px -12px 30px, rgb(146 72 199 / 11%) 0px 4px 6px, rgb(130 101 153 / 8%) 0px 12px 13px, rgb(209 87 87 / 27%) 0px -3px 5px;
+}
+#cerimag img{
+    
+}
+#pre{
+    color: red;
+}
+#next{
+    color: red;
+}
+
+/*this is the second part*/
+
+
+.clothes{
+    color: #9c75e7e0;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    font-family: math;
+    text-shadow: 0px 3px 2px #79a06d, -1px 3px 3px #82ad75, -2px 5px 1px #8ebf80;
+}
+#main2{
+   
+
+}
+#main2 .card{
+     border: none;
+   border-radius: 18px;
+    width: 17rem;
+   box-shadow: rgb(24 13 16 / 85%) 0px 50px 100px -20px, rgb(177 110 28 / 23%) 0px 30px 60px -30px, rgb(10 64 19 / 85%) 0px -2px 6px 0px inset;
+}
+ #main2 .card-title{
+        font-size: 15px;
+    }
+    #main2 .card-text{
+        
+        font-size: 15px;
+    }
+    #main a{
+        font-size: 15px;
+    }
+
+    #main2 btn{
+        
+    }    
+#main2 .card-body{
+    color: #ffffff9e;
+    background: linear-gradient(45deg, #4f2d66de, #33223ee3, #0e3c24eb, #173756fc);
+}
+
+
+#main2 a{
+    background: linear-gradient(45deg, #5c5913c2,#3f83978f, #958f3194);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0px 1px 3px 1px #52181878;
+}
+
+/* this si the shoes part  */
+
+.shoes{
+    color: #9c75e7e0;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    font-family: math;
+    text-shadow: 0px 3px 2px #79a06d, -1px 3px 3px #82ad75, -2px 5px 1px #8ebf80;
+}
+
+/* this is for */
+
+
+.watch{
+    color: #9c75e7e0;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    font-family: math;
+    text-shadow: 0px 3px 2px #79a06d, -1px 3px 3px #82ad75, -2px 5px 1px #8ebf80;
+}
+
+/* this is for nail */
+
+.polish{
+    color: #9c75e7e0;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    font-family: math;
+    text-shadow: 0px 3px 2px #79a06d, -1px 3px 3px #82ad75, -2px 5px 1px #8ebf80;
+}
+
+/* this is for hair drayer */
+
+
+
+
+.hair{
+    color: #9c75e7e0;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    font-family: math;
+    text-shadow: 0px 3px 2px #79a06d, -1px 3px 3px #82ad75, -2px 5px 1px #8ebf80;
+}
+
+
+/* this is for children */
+
+.children{
+    color: #9c75e7e0;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    font-family: math;
+    text-shadow: 0px 3px 2px #79a06d, -1px 3px 3px #82ad75, -2px 5px 1px #8ebf80;
+    
+}
+
+
+/* this is the last footers */
+.main5{
+    border-top-left-radius: 130px;
+    border-top-right-radius: 130px;
+    height: 350px;
+    background: linear-gradient(45deg, #167229f0, #5c2774d9, #2f4020c2, #1a7e4cd4);
+    
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flogo{
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 35px;
+    color: #25933d8f;
+}
+.fnav{
+    
+}
+.fnav a{
+    text-decoration: none;
+}
+.fnav ul{
+    display: flex;
+}
+.fnav li{
+    margin: 10px 0px 0px 21px;
+    list-style: none;
+    color: #1aa118d4;
+}
+
+.contact{
+   color: #1aa1188c;
+    font-size: 24px;
+    font-weight: 600;
+}
+.icon{
+    font-size: 30px;
+}
+
+
+
+.copy{
+    color: #1aa1188c;
+}
+
+
+
+
+
+/* media querie for small screen*/
+
+
+
+
+
+@media (min-width:320px){
+    
+body{
+    
+}
+.logo{
+    
+}
+.list{
+    
+}
+.list ul{
+    
+}
+.list li{
+    display: none;
+}
+    .absul{
+    position: absolute;
+    z-index: 9;
+}
+    
+    .toggle{
+        display: block;
+    }
+
+    .beauty{
+        position: relative;
+    top: 42px;
+    left: 32px;
+    width: 287px;
+    } 
+    .this{
+            font-size: 18px;
+    }
+    .image{
+        position: relative;
+    top: 10px;
+    left: 56px;
+    width: 259px;
+    height: 300px;
+    }
+    .image img{
+        width: 245px;
+    height: 292px;
+    }
+    
+    /* this is for the cerizol  */
+    
+    #cerizol{
+        
+    }
+    #cerimag{
+        height: 214px;
+        
+    }
+    
+    
+    
+    /* this is mid cards  */
+    
+    #main2 .card{
+        width: 9rem;
+    }
+    
+    #main2 img{
+        
+    }
+    #main2 .card-title{
+        font-size: 14px;
+    }
+    #main2 .card-text{
+        font-size: 13px;
+        
+    }
+    #main2 a{
+        font-size: 12px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* this is for footer  */
+    
+    .fnav{
+        
+    }
+    .fnav ul{
+        font-size: 9px;
+    }
+    .fnav li{
+        margin: 10px 0px 0px 4px;
+    }
+    
+    }
+
+
+
+
+
+/*  this si for the 425px  */
+
+
+
+
+
+@media (min-width:420px){
+    body{
+    
+}
+.logo{
+    
+}
+.list{
+    
+}
+.list ul{
+    
+}
+.list li{
+    display: none;
+}
+    .toggle{
+        display: block;
+    }
+
+    .beauty{
+        position: relative;
+    top: 42px;
+    left: 32px;
+    width: 287px;
+    } 
+    .this{
+            font-size: 18px;
+    }
+    .image{
+        position: relative;
+    top: 10px;
+    left: 150px;
+    width: 259px;
+    height: 300px;
+    }
+    .image img{
+        width: 245px;
+    height: 292px;
+    }
+    
+    /* this is for the cerizol  */
+    
+    #cerizol{
+        
+    }
+    #cerimag{
+        height: 214px;
+        
+    }
+    
+    
+    
+    /* this is mid cards  */
+    
+    #main2 .card{
+        width: 12rem;
+    }
+    
+    #main2 img{
+        
+    }
+    #main2 .card-title{
+        font-size: 14px;
+    }
+    #main2 .card-text{
+        font-size: 13px;
+        
+    }
+    #main2 a{
+        font-size: 12px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* this is for footer  */
+    
+    .fnav{
+        
+    }
+    .fnav ul{
+        font-size: 9px;
+    }
+    .fnav li{
+        margin: 10px 0px 0px 4px;
+    }
+    
+    }
+
+    
+    
+    
+
+
+
+/* this is for 768*/
+
+@media (min-width:768px){
+    
+       body{
+    
+}
+.logo{
+    
+}
+.list{
+    
+}
+.list ul{
+    display: flex;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.list a{
+    text-decoration: none;
+}
+
+.list li{ 
+    display: flex;
+    color: #8992f9;
+    list-style: none;
+   margin: 0px 0px 0px 16px;
+    padding: 0px 5px 0px 0px;
+}
+.toggle{
+    font-size: 16px;
+    border-radius: 3px;
+    padding: 1px 2px 2px 3px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background: linear-gradient(45deg, #800ba7c2, #8417c9b0);
+    display: none;
+}
+.beauty{
+    position: relative;
+    top: 70px;
+    left: 48px;
+    width: 400px;
+}
+.this{
+    font-size: 30px;
+    font-weight: bold;
+    color: #00ffff85;
+    font-family: cursive;
+}
+.start{
+    width: 125px;
+    font-size: 17px;
+    color: #a1a09c;
+    background: linear-gradient(45deg, #488732eb, #2e164aa3, #244345, #353535);
+    border-radius: 50px;
+    margin-top: 10px;
+        box-shadow: 0px 1px 1px 1px #445c3980;
+    padding: 7px 5px 8px 11px;
+    
+}
+.image{
+    position: relative;
+    top: -102px;
+    left: 432px;
+    width: 300px;
+    height: 350px;
+}
+.image img{
+    width: 300px;
+    height: 350px;
+}
+
+    /* this is for the cerizol  */
+    
+    #cerizol{
+        
+    }
+    #cerimag{
+        height: 250px;
+        
+    }
+    
+    
+    
+    /* this is mid cards  */
+    
+    #main2 .card{
+        width: 11rem;
+    }
+    
+    #main2 img{
+        
+    }
+    #main2 .card-title{
+        font-size: 14px;
+    }
+    #main2 .card-text{
+        font-size: 13px;
+        
+    }
+    #main2 a{
+        font-size: 12px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* this is for footer  */
+    
+    .fnav{
+        
+    }
+    .fnav ul{
+        font-size: 13px;
+    }
+    .fnav li{
+        margin: 10px 0px 0px 10px;
+    }
+    
+    }
+
+
+
+/* this is for the 1024px  */
+
+
+@media (min-width:1024px){
+    
+       body{
+    
+}
+.logo{
+    
+}
+.list{
+    
+}
+.list ul{
+    display: flex;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.list a{
+    text-decoration: none;
+}
+
+.list li{ 
+    display: flex;
+    color: #8992f9;
+    list-style: none;
+   margin: 0px 0px 0px 16px;
+    padding: 0px 5px 0px 0px;
+}
+.toggle{
+    font-size: 16px;
+    border-radius: 3px;
+    padding: 1px 2px 2px 3px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background: linear-gradient(45deg, #800ba7c2, #8417c9b0);
+    display: none;
+}
+.beauty{
+    position: relative;
+    top: 70px;
+    left: 105px;
+    width: 400px;
+}
+.this{
+    font-size: 30px;
+    font-weight: bold;
+    color: #00ffff85;
+    font-family: cursive;
+}
+.start{
+    width: 125px;
+    font-size: 17px;
+    color: #a1a09c;
+    background: linear-gradient(45deg, #488732eb, #2e164aa3, #244345, #353535);
+    border-radius: 50px;
+    margin-top: 10px;
+        box-shadow: 0px 1px 1px 1px #445c3980;
+    padding: 7px 5px 8px 11px;
+    
+}
+.image{
+    position: relative;
+    top: -107px;
+    left: 611px;
+    width: 300px;
+    height: 350px;
+}
+.image img{
+    width: 300px;
+    height: 350px;
+}
+
+    /* this is for the cerizol  */
+    
+    #cerizol{
+        
+    }
+    #cerimag{
+        height: 250px;
+        
+    }
+    
+    
+    
+    /* this is mid cards  */
+    
+    #main2 .card{
+        width: 14rem;
+    }
+    
+    #main2 img{
+        
+    }
+    #main2 .card-title{
+        font-size: 14px;
+    }
+    #main2 .card-text{
+        font-size: 13px;
+        
+    }
+    #main2 a{
+        font-size: 12px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* this is for footer  */
+    
+    .fnav{
+        
+    }
+    .fnav ul{
+        font-size: 15px;
+    }
+    .fnav li{
+        margin: 10px 0px 0px 10px;
+    }
+    
+    }
+
+
+
+/* this is for desktop */
+
+
+@media (min-width:1200px){
+    
+    body{
+        font-family: sans-serif;
+     background: linear-gradient(140deg, #452fbbbf, #421313b0, #743999d1, #40915ce3, #575a29d9);
+}
+.main1{
+   width: auto;
+    height: 400px;
+   background: linear-gradient(45deg, #482852e3, #3d1b42bf, #44215ecf, #7c2dad54);
+}
+.header{
+    
+    
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+        color: #16b3967a;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+}
+.list{
+    
+}
+.list ul{
+    display: flex;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.list a{
+    text-decoration: none;
+}
+
+.list li{ 
+    display: flex;
+    color: #8992f9;
+    list-style: none;
+   margin: 0px 0px 0px 16px;
+    padding: 0px 5px 0px 0px;
+}
+.toggle{
+    font-size: 16px;
+    border-radius: 3px;
+    padding: 1px 2px 2px 3px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background: linear-gradient(45deg, #800ba7c2, #8417c9b0);
+    display: none;
+}
+.beauty{
+    position: relative;
+    top: 70px;
+    left: 223px;
+    width: 400px;
+}
+.this{
+    font-size: 30px;
+    font-weight: bold;
+    color: #00ffff85;
+    font-family: cursive;
+}
+.start{
+    width: 125px;
+    font-size: 17px;
+    color: #a1a09c;
+    background: linear-gradient(45deg, #488732eb, #2e164aa3, #244345, #353535);
+    border-radius: 50px;
+    margin-top: 10px;
+        box-shadow: 0px 1px 1px 1px #445c3980;
+    padding: 7px 5px 8px 11px;
+    
+}
+.image{
+    position: relative; top: -100px;left: 890px;
+    width: 300px;
+    height: 350px;
+}
+.image img{
+    width: 300px;
+    height: 350px;
+}
+
+
+
+
+
+/* this the bootstrep carazol*/
+.new{
+    color: #9c75e7e0;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    font-family: math;
+    text-shadow: 0px 3px 2px #79a06d, -1px 3px 3px #82ad75, -2px 5px 1px #8ebf80;
+}
+
+#cerizol{
+    
+    
+}
+#cer button{
+    width: 7px;
+    height: 7px;
+    
+}
+#cerimag{
+    height: 350px;
+    box-shadow: rgb(0 0 0 / 30%) 0px 54px 55px, rgb(227 104 104 / 35%) 0px -12px 30px, rgb(146 72 199 / 11%) 0px 4px 6px, rgb(130 101 153 / 8%) 0px 12px 13px, rgb(209 87 87 / 27%) 0px -3px 5px;
+}
+#cerimag img{
+    
+}
+#pre{
+    color: red;
+}
+#next{
+    color: red;
+}
+
+/*this is the second part*/
+
+
+.clothes{
+    color: #9c75e7e0;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    font-family: math;
+    text-shadow: 0px 3px 2px #79a06d, -1px 3px 3px #82ad75, -2px 5px 1px #8ebf80;
+}
+#main2{
+   
+
+}
+#main2 .card{
+     border: none;
+   border-radius: 18px;
+    width: 17rem;
+   box-shadow: rgb(24 13 16 / 85%) 0px 50px 100px -20px, rgb(177 110 28 / 23%) 0px 30px 60px -30px, rgb(10 64 19 / 85%) 0px -2px 6px 0px inset;
+}
+    #main2 .card-title{
+        font-size: 20px;
+    }
+    #main2 .card-text{
+        
+        font-size: 18px;
+    }
+    #main2 a{
+        font-size: 17px;
+    }
+    
+    
+    #main2 btn{
+        
+    }    
+#main2 .card-body{
+    color: #ffffff9e;
+    background: linear-gradient(45deg, #4f2d66de, #33223ee3, #0e3c24eb, #173756fc);
+}
+
+
+#main2 a{
+    background: linear-gradient(45deg, #5c5913c2,#3f83978f, #958f3194);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0px 1px 3px 1px #52181878;
+}
+
+/* this si the shoes part  */
+
+.shoes{
+    color: #9c75e7e0;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    font-family: math;
+    text-shadow: 0px 3px 2px #79a06d, -1px 3px 3px #82ad75, -2px 5px 1px #8ebf80;
+}
+
+/* this is for */
+
+
+.watch{
+    color: #9c75e7e0;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    font-family: math;
+    text-shadow: 0px 3px 2px #79a06d, -1px 3px 3px #82ad75, -2px 5px 1px #8ebf80;
+}
+
+/* this is for nail */
+
+.polish{
+    color: #9c75e7e0;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    font-family: math;
+    text-shadow: 0px 3px 2px #79a06d, -1px 3px 3px #82ad75, -2px 5px 1px #8ebf80;
+}
+
+/* this is for hair drayer */
+
+
+
+
+.hair{
+    color: #9c75e7e0;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    font-family: math;
+    text-shadow: 0px 3px 2px #79a06d, -1px 3px 3px #82ad75, -2px 5px 1px #8ebf80;
+}
+
+
+/* this is for children */
+
+.children{
+    color: #9c75e7e0;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    font-family: math;
+    text-shadow: 0px 3px 2px #79a06d, -1px 3px 3px #82ad75, -2px 5px 1px #8ebf80;
+    
+}
+
+
+/* this is the last footers */
+.main5{
+    border-top-left-radius: 130px;
+    border-top-right-radius: 130px;
+    height: 350px;
+    background: linear-gradient(45deg, #167229f0, #5c2774d9, #2f4020c2, #1a7e4cd4);
+    
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flogo{
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 35px;
+    color: #25933d8f;
+}
+.fnav{
+    
+}
+.fnav a{
+    text-decoration: none;
+}
+.fnav ul{
+    display: flex;
+}
+.fnav li{
+    margin: 10px 0px 0px 21px;
+    list-style: none;
+    color: #1aa118d4;
+}
+
+.contact{
+   color: #1aa1188c;
+    font-size: 24px;
+    font-weight: 600;
+}
+.icon{
+    font-size: 30px;
+}
+
+
+
+.copy{
+    color: #1aa1188c;
+}
+
+    
+}
+
+
+
+
+
